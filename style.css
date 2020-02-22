@@ -6,32 +6,31 @@ header{
 	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('pics/img1.png');
 	background-size: 100% 100%;
 	height: 100vh;
-
 }
-
- ul{
+ul{
 	list-style: none;
-	margin-right: 0px;
+	 margin-left: 60%
 }
 ul li{
 	display: inline;
-	width: 200px;
-	height: 40px;
-	opacity: .8;
-	line-height: 40px;
-	text-align: center;
-	font-size: 20px;
-	margin-right: -1030px
-
+    width: 200px;
+    height: 40px;
+    opacity: .8;
+    line-height: 37px;
+    text-align: center;
+    font-size: 20px
 }
- ul li a{
+ul li a{
 	text-decoration: none;
-	color: white;
-	margin-left: 1112px;
-	width: 100px;
-	height: 40px;
-	font-family: Bebas Neue;
-
+    color: white;
+    width: 144px;
+    height: 40px;
+    font-family: Bebas Neue;
+    float: left;
+}
+.section1 a:hover{
+	border:3px 
+	solid red;
 }
 .logo img{
 	margin-left: 3%;
@@ -47,7 +46,7 @@ ul li{
     font-family: Bebas Neue;
 }
 .para{
-	 margin-left: 870px;
+	margin-left: 870px;
     margin-top: 30px;
     margin-right: 940px;
     color: white;
@@ -56,20 +55,22 @@ ul li{
     border-bottom: 3px solid white;
 }
 .section2{
-	background-color: #42363A;
+	background-color: 
+	#42363A;
 }
 .container{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
 	margin: 100px 272px 26px 272px;
+	padding-bottom: 8%
 }
 .section2 h1{
-	 margin-left: 18%;
-	 margin
+	margin-left: 18%;
     color: white;
     font-family: Bebas Neue;
     font-size: 50px;
+    padding-top: 3%;
 }
 
 .section2 .container .div1 .par{
@@ -95,5 +96,247 @@ ul li{
     margin-top: 11%;
 }
 .section3{
-	background-color: #42363A;
+	background-image: url(pics/img8.png);
+	height: 1018px;
 }
+.section3 .div1{
+	background: rgba(57, 45, 59, 0.7);
+	width: 100%;
+	height: 1018px;
+	display: flex;
+	margin-top: -26px;
+}
+.section3 .div2{
+	width: 50%;
+	color: white;
+}
+.section3 .div3{
+	float:
+	 right;
+}
+.section3 .div4{
+	float: right;
+	width: 60%;
+}
+.section3 .div4 .h1{
+	font-size: 50px;
+	font-family:Bebas Neue;
+	margin-left: -20%;
+    margin-top: 20%;
+}
+.section3 .div5{
+	width: 
+	60%;
+}
+.section3 .div5 p{
+    font-family:Lato;
+    margin-left: -30%;
+    font-size: 21px
+}
+.section3 .div4 .h2{
+	font-size: 50px;
+    font-family: Bebas Neue;
+    margin-left: -20%;
+    margin-top: 2%;
+}
+.section3 .div6 .div7{
+	display: flex;
+	border-bottom: 2px gray solid;
+	width: 60%;
+	padding-bottom: 20px;
+	margin-left: -20%;
+	 margin-top: 5%;
+}
+.section3 .div6 .div7 img{
+	border-radius: 10px;
+    padding-bottom: 0px  ,,,,,,;  
+}
+.section3 .div6 .div7 .div8{
+	margin-left: 
+	27px;
+}
+.section3 .div6 .div7 .div8 p{
+	font-family:Lato;
+	font-size: 17px;
+}
+.section3 .div6 .div9{
+	display: flex;
+	border-bottom: 2px gray solid;
+	width: 60%;
+	padding-bottom: 30px;
+    margin-left: -20%;
+    margin-top: 5%;
+}
+.section3 .div6 .div9 img{
+	border-radius: 10px;
+	padding-bottom: 0px;
+}
+.section3 .div6 .div9 .div10{
+	margin-left: 
+	27px;
+}
+.section3 .div6 .div9 .div10 p{
+	font-family: Lato;
+	font-size: 17px;
+}
+.section3 .div6 .div11{
+	display: flex;
+	border-bottom: 2px gray solid;
+	width: 60%;
+	padding-bottom: 30px;
+    margin-left: -20%;
+    margin-top: 5%;
+}
+.section3 .div6 .div11 img{
+     border-radius: 10px;
+     padding-bottom: 20px;
+}
+.section3 .div6 .div11 .div12{
+     margin-left: 
+     20px;
+}
+.section3 .div6 .div11 .div12 p{
+     font-family: Lato;
+     font-size: 17px;
+}
+.section3 .div6 .div13{
+	display: flex;
+	width: 60%;
+	padding-bottom: 30px;
+    margin-left: -20%;
+    margin-top: 5%;
+}
+.section3 .div6 .div13 img{
+	border-radius: 10px;
+	padding-bottom: 20px;
+}
+.section3 .div6 .div13 .div14{
+	margin-left: 
+                20px;
+}
+.section3 .div6 .div13 .div14 p{
+	font-family: Lato;
+	font-size: 17px;
+}
+.section3 .div1 .div15{
+	width: 50%;
+	color: white;
+}
+.section3 .div1 .div15 .div16 {
+	margin-top: 
+	5%;
+}
+
+.section3 .div1 .div15 .div17{
+	margin-top: 
+	40px;
+}
+.section4{
+	background: linear-gradient( rgba(66, 54, 58, 0.7), rgba(66, 54, 58, 0.7) ), url('pics/img15.png');
+	height: 100vh;
+}
+.section4 h1{
+	font-size: 125px;
+    font-family: Bebas Neue;
+    color: white;
+    margin-left: 20%;
+    padding-top: 5%
+}
+.section4 .div .h{
+	font-size: 
+	30px;
+}
+.section4 .div1{
+	margin-left: 
+	10px;
+}
+.section4 .div p{
+	font-size: 11px;
+    margin-left: 20%;
+    color: white;
+    font-family: Lato;
+    margin-top: 2%;
+}
+.section5{
+	background-color:
+	#42363A;
+}
+.section5 h1{
+   font-size: 46px;
+    padding-top: 8%;
+    padding-left: 43%;
+    font-family: Bebas Neue;
+    color: white
+}
+.section5 p{
+	font-family: lato;
+    margin-left: 30%;
+    margin-right: 31%;
+    text-align: center;
+    padding-top: 2%;
+    color: white;
+}
+.section5 h3{
+    font-family: lato;
+    margin-left: 30%;
+    margin-right: 29%;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 8%;
+    color: white;
+}
+.section5 h3 span{
+	border: 2px solid white;
+    padding: 7px 17px 7px 17px;
+    margin-left: 1%;
+}
+.section6{
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('pics/img16.png');
+	height: 68vh;
+}
+.section6 .img1{
+	width: 100%;
+	height: 68vh;
+}
+.section6 .img2{
+	position: absolute;
+	margin-left: -93%;
+    margin-top: 6%
+}
+.section6 .div1{
+	position: absolute;
+	margin-top: -25%;
+    margin-left: 10%;
+}
+.section6 .div1 h1{
+    font-size: 55px;
+    font-family: Bebas Neue;
+    color: white;
+}
+.section6 .div1 p{
+	color: white;
+    font-size: 13px;
+    font-family: lato;
+    margin-right: 81%;
+    padding-top: 3%;
+}
+.section6 .div1 h3{
+	color: white;
+	font-size: 31px;
+	font-family: Bebas Neue;
+	padding-top: 2%;
+}
+.section7 .div1{
+	background-color: #DC5352;
+}
+.section7 .div1 .place2{
+	color: white;
+    margin-left: 870px;
+       margin-top: 130px;
+    margin-bottom: 100px;
+    border: 3px solid white;
+    font-size: 70px;
+    margin-right: 864px;
+    font-family: Bebas Neue;
+}
+
